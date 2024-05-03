@@ -12,3 +12,6 @@ module "gke_cluster" {
   GKE_NUM_NODES  = var.GKE_NUM_NODES
 }
 
+module "kind_cluster" {
+  source = "github.com/den-vasyliev/tf-kind-cluster?ref=cert_auth"
+}
