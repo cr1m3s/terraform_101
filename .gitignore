@@ -1,0 +1,7 @@
+.terraform
+.terraform/
+.terraform/*
+.terraform.lock.hcl
+./tf-fluxcd-flux-bootstrap
+./tf-fluxcd-flux-bootstrap/*
+vars.tfvars
